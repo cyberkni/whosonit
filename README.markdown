@@ -4,6 +4,7 @@ Who's On It
 Who's On It is a lightweight email tracking system written in Go for use on AppEngine. It utilizes the AppEngine Email services to receive and send email.
 
 The workflow of the system is the following:
+
 1. An email is received by the AppEngine incoming email feature and passed to this application.
 2. The system records this message and sends a notice to a configured notification email address.
 3. An interested person comes along to act on the email. To indicate this intent they click the "Accept" button which marks the email as owned by them.
